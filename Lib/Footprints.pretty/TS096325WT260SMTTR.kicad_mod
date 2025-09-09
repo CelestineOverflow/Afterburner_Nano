@@ -1,0 +1,233 @@
+(footprint "TS096325WT260SMTTR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TS09-63-25-WT-260-SMT-TR-1")
+	(tags "Switch")
+	(property "Reference" "S**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "f7ab7ae7-468f-4576-b3e0-5679c8963a05")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TS096325WT260SMTTR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "beefea51-3f26-4db4-a00f-72dae2a2eeaa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e77edacc-8497-4901-94d9-306ac406f8d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b48dd9c7-e9bf-4abc-93b3-2ad91fdaac29")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.8 0)
+		(end -4.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "777d77a3-c018-40ed-b566-079480e42257")
+	)
+	(fp_line
+		(start -4.7 0)
+		(end -4.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b4b75ad-cc5c-4185-855f-1f23ed4b99f5")
+	)
+	(fp_line
+		(start -3.05 -1.85)
+		(end 3.05 -1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "874257ee-5cad-4cd0-9883-9887dce60d90")
+	)
+	(fp_line
+		(start -3.05 -0.8)
+		(end -3.05 -1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "227c6915-5a73-4069-a622-bdbf08dfb736")
+	)
+	(fp_line
+		(start -3.05 1)
+		(end -3.05 1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2e7c200-96fd-43d4-8b93-ba95fdde2f3e")
+	)
+	(fp_line
+		(start -3.05 1.85)
+		(end 3.05 1.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d9eb2ef-c067-4fc0-902b-dbe7ddd65c88")
+	)
+	(fp_line
+		(start 3.05 -1.8)
+		(end 3.05 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e949f689-e0c9-4ad7-be2d-9625f21ee32a")
+	)
+	(fp_line
+		(start 3.05 1.85)
+		(end 3.05 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23de0c1e-68cd-4dc0-aadf-c8ca0473e452")
+	)
+	(fp_arc
+		(start -4.8 0)
+		(mid -4.75 -0.05)
+		(end -4.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42620b1e-6281-4d5c-866e-429f5a227142")
+	)
+	(fp_arc
+		(start -4.7 0)
+		(mid -4.75 0.05)
+		(end -4.8 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a2d61ad-13ee-46cb-a711-8fe33f921814")
+	)
+	(fp_line
+		(start -3.05 -1.85)
+		(end -3.05 1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8622ea8-f47e-4097-a652-ac43e4803a38")
+	)
+	(fp_line
+		(start -3.05 1.85)
+		(end 3.05 1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b365e259-e3c4-48a6-9e7c-7fdcc707eaed")
+	)
+	(fp_line
+		(start 3.05 -1.85)
+		(end -3.05 -1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b47a702-cd31-40e2-a1af-cd02c71ec52f")
+	)
+	(fp_line
+		(start 3.05 1.85)
+		(end 3.05 -1.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a82f680-0c41-4c3e-92c8-44c99d9791f4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "297c5769-31cf-46c5-8764-fd80065b68fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.75 0 90)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "de5d8f0f-87b0-4fc3-a606-09475355c9cf")
+	)
+	(pad "2" smd rect
+		(at 3.75 0 90)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f4d38245-b20e-4400-8cbf-a6845e978183")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Lib/3d/LIB_TS09-63-25-WT-260-SMT-TR/TS09-63-25-WT-260-SMT-TR/3D/TS09-63-25-WT-260-SMT-TR.stp"
+		(offset
+			(xyz 0 0 0.04999999999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

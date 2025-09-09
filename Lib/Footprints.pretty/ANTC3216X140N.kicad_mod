@@ -1,0 +1,141 @@
+(footprint "ANTC3216X140N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ACMA31")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 -1.6 0)
+		(layer "F.SilkS")
+		(uuid "1c0f7b42-14b7-4aab-98bc-f0200713081d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ANTC3216X140N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8eaad9f8-8e15-4c2d-9f65-ad2bdc0734c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c41b0e4c-0502-4934-8434-6b6157cfde23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "561762f5-11cb-413a-b8b4-81ed585ebb21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "508de2a5-37b4-40cf-8e85-80ca65eaf473")
+	)
+	(fp_line
+		(start -1.6 -0.225)
+		(end -1.025 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ae612f3-afc5-4984-90f3-c427e811d497")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9659e388-47de-42c1-9ef6-ea3c009a7265")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "160a6468-4fa0-4942-a871-8ac46cbc5c6e")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47a37ed3-00e7-4d29-80b6-40397e56baef")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 -3.5 0)
+		(layer "F.Fab")
+		(uuid "ceeca161-ca0d-4d09-a188-35053f252d9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1.15 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fb0d7fc5-b111-409d-95ef-b741e6e26a23")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1.15 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "40301d98-3f17-43b1-9662-1188668fc821")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Lib/3d/AMCA31-2R450G-S1F-T3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

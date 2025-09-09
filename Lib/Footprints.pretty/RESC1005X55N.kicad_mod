@@ -1,0 +1,162 @@
+(footprint "RESC1005X55N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "NCU15XH103J6SRC-+-")
+	(tags "Thermistor")
+	(property "Reference" "RT**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ce0fd253-ff71-47b8-bbdf-90f4773829e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "RESC1005X55N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cce1dd64-41a1-462d-b7d0-8aef98d96f49")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0a6aaaf-e25e-4936-bfef-a4b0832451f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9719406-7ec8-421c-b5bf-4d339a1e7167")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.175 -0.55)
+		(end 1.175 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "96425ed6-b41e-4c3f-b131-256f519dd2e6")
+	)
+	(fp_line
+		(start -1.175 0.55)
+		(end -1.175 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9093ea17-7de1-46f1-8c75-44e75e1fd273")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "936f16d3-0762-4dca-bec1-62e753c790df")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "953f5abd-dbba-4c26-8a23-425cca6407f2")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6a76c8b9-6e72-40f0-99b9-0bad1a827092")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "af071e08-6eda-4c88-a7a7-7c4748e21afc")
+	)
+	(fp_line
+		(start 1.175 -0.55)
+		(end 1.175 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "85444205-a052-420e-8bd9-72002cfbd493")
+	)
+	(fp_line
+		(start 1.175 0.55)
+		(end -1.175 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8f636838-3c26-49a6-a712-85153fcddde5")
+	)
+	(pad "1" smd rect
+		(at -0.55 0 90)
+		(size 0.6 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e096bd61-deb0-44b2-bb6d-6726cc819f7f")
+	)
+	(pad "2" smd rect
+		(at 0.55 0 90)
+		(size 0.6 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "f9e5634a-c1a0-4395-b7c9-0dd370ab1789")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Lib/3d/NCU15XH103J6SRC.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,221 @@
+(footprint "WE-MAPI_3020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.835 0)
+		(layer "F.SilkS")
+		(uuid "83fa8044-3822-427c-8f0f-f4e2374988fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-MAPI_3020"
+		(at 0 2.865 0)
+		(layer "F.Fab")
+		(uuid "50d72c2d-5ec2-4275-97e5-d244b9683571")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8697c868-5e74-496d-af62-27f3e3c20215")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5d2ba32-5c74-4fb0-9522-3fa2db647ef4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.1 -1.6)
+		(end 0.1 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2f6922b-b65a-4bfc-a26f-92b17283a107")
+	)
+	(fp_line
+		(start -0.1 1.6)
+		(end 0.1 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0dd5f3a-07d1-4627-9dc8-48562eccdd76")
+	)
+	(fp_poly
+		(pts
+			(xy -1.9 -1.9) (xy 1.9 -1.9) (xy 1.9 1.9) (xy -1.9 1.9)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "c3e27ecf-d656-4dfd-aee2-3943c70faa2d")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed79a422-9b93-4764-9cb0-030302d80fa4")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70a4b855-345b-4b35-a44f-eba005270f47")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2a1c3522-107b-4a2f-9029-3ef27ae2ffc3")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0757101c-ac85-461f-8a0b-56026dc6c2b0")
+	)
+	(pad "1" smd rect
+		(at -1.05 0)
+		(size 1.3 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c226e814-67e2-497d-adc5-17de4eaf126b")
+	)
+	(pad "2" smd rect
+		(at 1.05 0)
+		(size 1.3 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "d387fdfa-df09-46ad-8178-9f0973863971")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "46f8ea46-da53-4082-91bf-d588a88c3ab1")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -0.4 -1.7) (xy 0.4 -1.7) (xy 0.4 1.7) (xy -0.4 1.7)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "27bdd956-bf56-4aaf-88dd-6c35f4f537d1")
+		(hatch full 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.01)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy -0.4 -1.7) (xy 0.4 -1.7) (xy 0.4 1.7) (xy -0.4 1.7)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Lib/3d/WE-MAPI_3020HT.step"
+		(opacity 0.5100)
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+)
