@@ -1832,16 +1832,6 @@
 		)
 		(uuid e9a2b55b-d081-481f-9c0f-f1e52f3c5ccd)
 	)
-	(text "^need to check this"
-		(exclude_from_sim no)
-		(at 66.04 32.766 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "34c0fa32-058a-44bd-b511-3c91c36a3e43")
-	)
 	(text "Heater"
 		(exclude_from_sim no)
 		(at 37.846 23.622 0)
@@ -3325,17 +3315,6 @@
 		)
 		(uuid "cbe25d66-48be-468b-a858-8b1b19367ce3")
 	)
-	(hierarchical_label "HEATER_PWM"
-		(shape input)
-		(at 166.37 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "01b8de47-a070-40ca-91f7-990dd294143c")
-	)
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 166.37 92.71 0)
@@ -3357,6 +3336,17 @@
 			(justify left)
 		)
 		(uuid "a095ba60-08dd-45e2-885a-f4e4363dc7b5")
+	)
+	(hierarchical_label "HEATER_PWN"
+		(shape input)
+		(at 166.37 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2788b9d-5061-4fe1-bc4b-ba3dd2f9bcaf")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
@@ -4134,7 +4124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3v3"
+		(property "Value" "+5V"
 			(at 86.36 24.13 0)
 			(effects
 				(font

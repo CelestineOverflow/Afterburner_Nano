@@ -3522,16 +3522,6 @@
 		)
 		(uuid "15709546-e66c-427d-8b01-e5da7503e87a")
 	)
-	(label "CC2"
-		(at 154.94 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a32f243-f2c2-41a8-bc0b-460276917d20")
-	)
 	(label "Reserved_36"
 		(at 54.61 120.65 0)
 		(effects
@@ -3863,16 +3853,6 @@
 		(uuid "aa70c9fe-6c83-4451-be2f-d9299c32ff86")
 	)
 	(label "CC1"
-		(at 139.7 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "adb0f79e-ba2b-4548-9178-339c9dbe7c7a")
-	)
-	(label "CC1"
 		(at 110.49 35.56 0)
 		(effects
 			(font
@@ -4122,76 +4102,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 154.94 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f54f452-bc69-4ff7-a915-763c28ac45ce")
-		(property "Reference" "C6"
-			(at 160.02 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330pF"
-			(at 160.02 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 155.9052 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 154.94 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "32d1eed1-dfc3-45fd-a5c8-9a51677183f0")
-		)
-		(pin "1"
-			(uuid "90d25d1d-ab9b-42fa-ae76-dd757b09316c")
-		)
-		(instances
-			(project ""
-				(path "/873d75f2-cca9-43ae-8df2-93f396b30af0/51b8f0cc-ef3b-46fd-be3e-e0ff27e1dea7"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 233.68 132.08 0)
 		(unit 1)
@@ -4318,72 +4228,6 @@
 			(project ""
 				(path "/873d75f2-cca9-43ae-8df2-93f396b30af0/51b8f0cc-ef3b-46fd-be3e-e0ff27e1dea7"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1571cef2-100e-406d-b4d1-689b43f98c73")
-		(property "Reference" "#PWR038"
-			(at 154.94 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d3ce43b-f9a0-415a-a40d-cb4694e6695d")
-		)
-		(instances
-			(project "Afterburner_Nano"
-				(path "/873d75f2-cca9-43ae-8df2-93f396b30af0/51b8f0cc-ef3b-46fd-be3e-e0ff27e1dea7"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5070,76 +4914,6 @@
 			(project "Afterburner_Nano"
 				(path "/873d75f2-cca9-43ae-8df2-93f396b30af0/51b8f0cc-ef3b-46fd-be3e-e0ff27e1dea7"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 139.7 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "441cbfd6-36be-4664-8e3e-0258b39aead9")
-		(property "Reference" "C7"
-			(at 144.78 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330pF"
-			(at 144.78 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.6652 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 139.7 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9ec41d0a-3df3-4502-a1d9-7b25916d8293")
-		)
-		(pin "1"
-			(uuid "874e41a3-61d5-4cd9-b281-175d034b94f2")
-		)
-		(instances
-			(project "Afterburner_Nano"
-				(path "/873d75f2-cca9-43ae-8df2-93f396b30af0/51b8f0cc-ef3b-46fd-be3e-e0ff27e1dea7"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6248,72 +6022,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 139.7 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69d6a35a-00d0-49a4-aff4-3da6f0248dfe")
-		(property "Reference" "#PWR037"
-			(at 139.7 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48bcdf68-c065-4110-a92f-45387a85c31f")
-		)
-		(instances
-			(project ""
-				(path "/873d75f2-cca9-43ae-8df2-93f396b30af0/51b8f0cc-ef3b-46fd-be3e-e0ff27e1dea7"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 135.89 50.8 0)
 		(unit 1)
@@ -6341,7 +6049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 136.8552 54.61 0)
 			(effects
 				(font
@@ -6360,6 +6068,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 135.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GPC0805106-35"
 			(at 135.89 50.8 0)
 			(effects
 				(font
@@ -6964,7 +6681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 160.9852 54.61 0)
 			(effects
 				(font
@@ -6983,6 +6700,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 160.02 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MLAST21GBB5226MTNC12"
 			(at 160.02 50.8 0)
 			(effects
 				(font
@@ -7070,76 +6796,6 @@
 			(project "Afterburner_Nano"
 				(path "/873d75f2-cca9-43ae-8df2-93f396b30af0/51b8f0cc-ef3b-46fd-be3e-e0ff27e1dea7"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 148.59 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6b95999-461b-42aa-ab9a-c063777c154b")
-		(property "Reference" "C15"
-			(at 153.67 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 153.67 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.5552 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 148.59 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2727f035-7476-4ddf-912a-7138a392605a")
-		)
-		(pin "1"
-			(uuid "76bb3da4-821e-4b09-908c-2fa434dc1f0d")
-		)
-		(instances
-			(project "Afterburner_Nano"
-				(path "/873d75f2-cca9-43ae-8df2-93f396b30af0/51b8f0cc-ef3b-46fd-be3e-e0ff27e1dea7"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8167,6 +7823,85 @@
 			(project ""
 				(path "/873d75f2-cca9-43ae-8df2-93f396b30af0/51b8f0cc-ef3b-46fd-be3e-e0ff27e1dea7"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 148.59 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddd21ee7-656f-495b-a2c3-319027d8cd26")
+		(property "Reference" "C15"
+			(at 153.67 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 153.67 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 149.5552 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MLAST21GBB5226MTNC12"
+			(at 148.59 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8ae7444-abf3-4b02-9179-b725d440705f")
+		)
+		(pin "1"
+			(uuid "120f0ccf-9e32-477b-8419-0e8e63c22b7e")
+		)
+		(instances
+			(project "Afterburner_Nano"
+				(path "/873d75f2-cca9-43ae-8df2-93f396b30af0/51b8f0cc-ef3b-46fd-be3e-e0ff27e1dea7"
+					(reference "C15")
 					(unit 1)
 				)
 			)
