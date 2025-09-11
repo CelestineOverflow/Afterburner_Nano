@@ -1,4 +1,4 @@
-25690688086230241
+25694203280409950
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59521,6 +59521,13 @@ JST_B4B-PH-K-S
 4
 4
 Footprints
+LED_BB-2020BGR-TRB
+
+
+0
+6
+6
+Footprints
 NTMFS5C612NLT1G
 DFN5_2021
 Connector
@@ -59729,6 +59736,13 @@ Untitled_1
 
 0
 36
+2
+Footprints
+VLMTG1500GS08
+VLMTG1500-GS08-5
+LED
+0
+2
 2
 Footprints
 WE-HCI_103023

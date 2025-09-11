@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "VLMTG1500-GS08"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-04-11-09:49:28)
+    (mountForm default
+        (footprintRef "VLMTG1500GS08")
+        (spec "System")
+    )
+)

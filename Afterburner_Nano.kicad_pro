@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.55,
-          "width": 0.3
+          "height": 0.64,
+          "width": 0.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -537,7 +537,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "./",
-      "plot": "Gerber/",
+      "plot": "C:/Users/celestine/Documents/Reddit+/",
       "pos_files": "pnp/",
       "specctra_dsn": "",
       "step": "output/Afterburner_Nano.step",
@@ -792,7 +792,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "C:/Users/celestine/Documents/Reddit+/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
