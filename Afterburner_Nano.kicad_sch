@@ -4613,7 +4613,25 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" ""
+		(property "Arrow Part Number" ""
+			(at 162.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 162.56 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
 			(at 162.56 36.83 0)
 			(effects
 				(font
@@ -4794,7 +4812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 180.848 81.28 90)
 			(effects
 				(font
@@ -4839,8 +4857,8 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part No" ""
-			(at 179.07 81.28 90)
+		(property "MPN" "GPR04023K3"
+			(at 179.07 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,8 +4866,8 @@
 				(hide yes)
 			)
 		)
-		(property "MCPN" ""
-			(at 179.07 81.28 90)
+		(property "Arrow Part Number" ""
+			(at 179.07 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,8 +4875,8 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "GPR020110K"
-			(at 179.07 81.28 90)
+		(property "Arrow Price/Stock" ""
+			(at 179.07 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4866,17 +4884,8 @@
 				(hide yes)
 			)
 		)
-		(property "MCP" ""
-			(at 179.07 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" ""
-			(at 179.07 81.28 90)
+		(property "GPN" ""
+			(at 179.07 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5046,6 +5055,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 80.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 80.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
+			(at 80.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Afterburner_Nano"
 				(path "/873d75f2-cca9-43ae-8df2-93f396b30af0"
@@ -5138,6 +5174,33 @@
 			)
 		)
 		(property "CPN" ""
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 135.89 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
 			(at 135.89 68.58 0)
 			(effects
 				(font
@@ -5385,7 +5448,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part No" ""
+		(property "MPN" "0201WMF220JTEE"
 			(at 170.18 55.88 90)
 			(effects
 				(font
@@ -5394,7 +5457,7 @@
 				(hide yes)
 			)
 		)
-		(property "MCPN" ""
+		(property "Arrow Part Number" ""
 			(at 170.18 55.88 90)
 			(effects
 				(font
@@ -5403,7 +5466,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "GPR020110K"
+		(property "Arrow Price/Stock" ""
 			(at 170.18 55.88 90)
 			(effects
 				(font
@@ -5412,16 +5475,7 @@
 				(hide yes)
 			)
 		)
-		(property "MCP" ""
-			(at 170.18 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" ""
+		(property "GPN" ""
 			(at 170.18 55.88 90)
 			(effects
 				(font
@@ -5680,6 +5734,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 151.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 151.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
+			(at 151.13 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e987d77-e9f5-48bd-90b0-a2e484e28a9d")
 		)
@@ -5780,7 +5861,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "GPC0402104-16"
+		(property "MPN" "GPC0402104-25"
 			(at 173.99 36.83 0)
 			(effects
 				(font
@@ -5789,7 +5870,25 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" ""
+		(property "Arrow Part Number" ""
+			(at 173.99 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 173.99 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
 			(at 173.99 36.83 0)
 			(effects
 				(font
@@ -5807,6 +5906,10 @@
 		(instances
 			(project "Afterburner_Nano"
 				(path "/873d75f2-cca9-43ae-8df2-93f396b30af0"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/873d75f2-cca9-43ae-8df2-93f396b30af0/be44855f-5d38-4f08-ae0b-6573fb3be7d5"
 					(reference "C5")
 					(unit 1)
 				)
@@ -5883,7 +5986,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part No" ""
+		(property "MPN" "GPR020110K"
 			(at 210.82 44.45 90)
 			(effects
 				(font
@@ -5892,7 +5995,7 @@
 				(hide yes)
 			)
 		)
-		(property "MCPN" ""
+		(property "Arrow Part Number" ""
 			(at 210.82 44.45 90)
 			(effects
 				(font
@@ -5901,7 +6004,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "GPR020110K"
+		(property "Arrow Price/Stock" ""
 			(at 210.82 44.45 90)
 			(effects
 				(font
@@ -5910,16 +6013,7 @@
 				(hide yes)
 			)
 		)
-		(property "MCP" ""
-			(at 210.82 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" ""
+		(property "GPN" ""
 			(at 210.82 44.45 90)
 			(effects
 				(font
@@ -6013,7 +6107,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part No" ""
+		(property "MPN" "GPR04022K7"
 			(at 210.82 101.6 90)
 			(effects
 				(font
@@ -6022,7 +6116,7 @@
 				(hide yes)
 			)
 		)
-		(property "MCPN" ""
+		(property "Arrow Part Number" ""
 			(at 210.82 101.6 90)
 			(effects
 				(font
@@ -6031,7 +6125,16 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "GPR04022K7"
+		(property "Arrow Price/Stock" ""
+			(at 210.82 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
 			(at 210.82 101.6 90)
 			(effects
 				(font
@@ -6233,6 +6336,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 26.67 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GPC0603475-10"
+			(at 26.67 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 26.67 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 26.67 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
 			(at 26.67 152.4 0)
 			(effects
 				(font
@@ -6570,6 +6709,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 123.19 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 123.19 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
+			(at 123.19 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06b220f1-8da1-40f8-bb14-39bb4ce7db3d")
 		)
@@ -6721,7 +6887,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part No" ""
+		(property "MPN" "GPR020110K"
 			(at 210.82 46.99 90)
 			(effects
 				(font
@@ -6730,7 +6896,7 @@
 				(hide yes)
 			)
 		)
-		(property "MCPN" ""
+		(property "Arrow Part Number" ""
 			(at 210.82 46.99 90)
 			(effects
 				(font
@@ -6739,7 +6905,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "GPR020110K"
+		(property "Arrow Price/Stock" ""
 			(at 210.82 46.99 90)
 			(effects
 				(font
@@ -6748,16 +6914,7 @@
 				(hide yes)
 			)
 		)
-		(property "MCP" ""
-			(at 210.82 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" ""
+		(property "GPN" ""
 			(at 210.82 46.99 90)
 			(effects
 				(font
@@ -6851,7 +7008,34 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "GPR04022K7"
+		(property "MPN" "GPR04022K7"
+			(at 210.82 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 210.82 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 210.82 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
 			(at 210.82 104.14 90)
 			(effects
 				(font
@@ -6945,7 +7129,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part No" ""
+		(property "MPN" "GPR04022K7"
 			(at 210.82 99.06 90)
 			(effects
 				(font
@@ -6954,7 +7138,7 @@
 				(hide yes)
 			)
 		)
-		(property "MCPN" ""
+		(property "Arrow Part Number" ""
 			(at 210.82 99.06 90)
 			(effects
 				(font
@@ -6963,7 +7147,16 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "GPR04022K7"
+		(property "Arrow Price/Stock" ""
+			(at 210.82 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
 			(at 210.82 99.06 90)
 			(effects
 				(font
@@ -7089,6 +7282,42 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AP7361E-33FGE-7"
+			(at 72.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 72.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 72.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
+			(at 72.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7248,6 +7477,42 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GPC0603475-10"
+			(at 26.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 26.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 26.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
+			(at 26.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5e6ff1b-fdea-48ea-9b70-e3b5ca31dddc")
 		)
@@ -7333,7 +7598,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part No" ""
+		(property "MPN" "GPR020110K"
 			(at 210.82 49.53 90)
 			(effects
 				(font
@@ -7342,7 +7607,7 @@
 				(hide yes)
 			)
 		)
-		(property "MCPN" ""
+		(property "Arrow Part Number" ""
 			(at 210.82 49.53 90)
 			(effects
 				(font
@@ -7351,7 +7616,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "GPR020110K"
+		(property "Arrow Price/Stock" ""
 			(at 210.82 49.53 90)
 			(effects
 				(font
@@ -7360,16 +7625,7 @@
 				(hide yes)
 			)
 		)
-		(property "MCP" ""
-			(at 210.82 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" ""
+		(property "GPN" ""
 			(at 210.82 49.53 90)
 			(effects
 				(font
@@ -7560,6 +7816,42 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 41.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 41.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LM66200DRLR"
+			(at 41.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
+			(at 41.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7843,6 +8135,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
+			(at 144.78 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1557bc4c-674a-49be-bf79-45f2828267b8")
 		)
@@ -7959,6 +8278,33 @@
 			)
 		)
 		(property "CPN" ""
+			(at 79.9099 33.7356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 79.9099 33.7356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 79.9099 33.7356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
 			(at 79.9099 33.7356 0)
 			(effects
 				(font
@@ -8158,6 +8504,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 123.19 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 123.19 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
+			(at 123.19 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c3cd467-0706-448c-a7c5-60c1784d6f95")
 		)
@@ -8298,6 +8671,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
+			(at 144.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ddbd8979-a717-4c21-a054-6ad417c3e599")
 		)
@@ -8339,7 +8739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 31.75 86.868 90)
 			(effects
 				(font
@@ -8384,7 +8784,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part No" ""
+		(property "MPN" "GPR04021K"
 			(at 31.75 85.09 90)
 			(effects
 				(font
@@ -8393,7 +8793,7 @@
 				(hide yes)
 			)
 		)
-		(property "MCPN" ""
+		(property "Arrow Part Number" ""
 			(at 31.75 85.09 90)
 			(effects
 				(font
@@ -8402,7 +8802,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "GPR02011K"
+		(property "Arrow Price/Stock" ""
 			(at 31.75 85.09 90)
 			(effects
 				(font
@@ -8411,16 +8811,7 @@
 				(hide yes)
 			)
 		)
-		(property "MCP" ""
-			(at 31.75 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" ""
+		(property "GPN" ""
 			(at 31.75 85.09 90)
 			(effects
 				(font
@@ -8713,7 +9104,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part No" ""
+		(property "MPN" "0201WMF220JTEE"
 			(at 170.18 58.42 90)
 			(effects
 				(font
@@ -8722,7 +9113,7 @@
 				(hide yes)
 			)
 		)
-		(property "MCPN" ""
+		(property "Arrow Part Number" ""
 			(at 170.18 58.42 90)
 			(effects
 				(font
@@ -8731,7 +9122,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "GPR020110K"
+		(property "Arrow Price/Stock" ""
 			(at 170.18 58.42 90)
 			(effects
 				(font
@@ -8740,16 +9131,7 @@
 				(hide yes)
 			)
 		)
-		(property "MCP" ""
-			(at 170.18 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" ""
+		(property "GPN" ""
 			(at 170.18 58.42 90)
 			(effects
 				(font
@@ -8844,7 +9226,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey Part No" ""
+		(property "MPN" "GPR020110K"
 			(at 74.93 90.17 90)
 			(effects
 				(font
@@ -8853,7 +9235,7 @@
 				(hide yes)
 			)
 		)
-		(property "MCPN" ""
+		(property "Arrow Part Number" ""
 			(at 74.93 90.17 90)
 			(effects
 				(font
@@ -8862,7 +9244,7 @@
 				(hide yes)
 			)
 		)
-		(property "GPN" "GPR020110K"
+		(property "Arrow Price/Stock" ""
 			(at 74.93 90.17 90)
 			(effects
 				(font
@@ -8871,16 +9253,7 @@
 				(hide yes)
 			)
 		)
-		(property "MCP" ""
-			(at 74.93 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" ""
+		(property "GPN" ""
 			(at 74.93 90.17 90)
 			(effects
 				(font

@@ -1880,12 +1880,6 @@
 		(uuid "fdfcb961-43d2-4fc7-9d2b-aa8ca41ba672")
 	)
 	(junction
-		(at 127 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b0bbb9c-f712-4a99-a6e8-3ab24c2ee407")
-	)
-	(junction
 		(at 137.16 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1908,6 +1902,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a156a299-1bf8-482c-8f24-54604f85cfc7")
+	)
+	(junction
+		(at 127 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1de04cd-f589-41fd-9f68-38263553dbaf")
 	)
 	(junction
 		(at 120.65 111.76)
@@ -1963,7 +1963,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 50.8) (xy 127 50.8)
+			(xy 137.16 49.53) (xy 127 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2223,7 +2223,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 50.8) (xy 102.87 50.8)
+			(xy 127 49.53) (xy 102.87 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2273,7 +2273,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 41.91) (xy 127 50.8)
+			(xy 127 41.91) (xy 127 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2333,7 +2333,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 60.96) (xy 137.16 50.8)
+			(xy 137.16 60.96) (xy 137.16 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2473,7 +2473,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 50.8) (xy 102.87 58.42)
+			(xy 102.87 49.53) (xy 102.87 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3216,7 +3216,7 @@
 		(uuid "40e0277f-f47c-4dee-bf0d-b26f3c5f3a37")
 	)
 	(label "OUT_MOS"
-		(at 127 50.8 0)
+		(at 127 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3275,7 +3275,7 @@
 		)
 		(uuid "ac541fad-ed18-4231-93ab-504b2186de2c")
 	)
-	(label "IN-"
+	(label "IN+"
 		(at 123.19 39.37 0)
 		(effects
 			(font
@@ -3295,7 +3295,7 @@
 		)
 		(uuid "c84ed650-6934-4d0c-8216-2f5207e9a1c7")
 	)
-	(label "IN-"
+	(label "IN+"
 		(at 110.49 105.41 0)
 		(effects
 			(font
@@ -3448,6 +3448,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 124.46 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 124.46 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
+			(at 124.46 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d9510bfd-44cc-4a76-92b3-f7ed2e65fb17")
 		)
@@ -3546,6 +3573,33 @@
 			)
 		)
 		(property "CPN" ""
+			(at 36.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 36.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 36.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
 			(at 36.83 120.65 0)
 			(effects
 				(font
@@ -3794,6 +3848,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "97370d72-d31a-49be-89be-3b0ce94c7111")
 		)
@@ -3932,6 +4013,33 @@
 			)
 		)
 		(property "CPN" ""
+			(at 97.79 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 97.79 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 97.79 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
 			(at 97.79 60.96 90)
 			(effects
 				(font
@@ -4181,7 +4289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6116f850-c6e0-4101-b3be-dcff05c2a001")
-		(property "Reference" "J2"
+		(property "Reference" "Q2"
 			(at 119.38 50.8 0)
 			(effects
 				(font
@@ -4312,6 +4420,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 106.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 106.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
+			(at 106.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f96423fd-97d4-4bcc-9a84-896a17d4027b")
 		)
@@ -4342,7 +4477,7 @@
 		(instances
 			(project ""
 				(path "/873d75f2-cca9-43ae-8df2-93f396b30af0/be44855f-5d38-4f08-ae0b-6573fb3be7d5"
-					(reference "J2")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -4653,6 +4788,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 113.03 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 113.03 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
+			(at 113.03 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a60e4efe-62e2-4f14-812b-587b04c9649f")
 		)
@@ -4751,6 +4913,33 @@
 			)
 		)
 		(property "CPN" ""
+			(at 100.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 100.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 100.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
 			(at 100.33 34.29 0)
 			(effects
 				(font
@@ -5012,6 +5201,33 @@
 				(hide yes)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 97.79 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 97.79 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
+			(at 97.79 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8f71d0d-3778-4fdb-b7e4-4a4eb17f7ebc")
 		)
@@ -5206,6 +5422,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 86.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GPC0402104-25"
+			(at 86.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 86.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 86.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
 			(at 86.36 34.29 0)
 			(effects
 				(font
@@ -5466,6 +5718,42 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MCP1416T-E/OT"
+			(at 54.61 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 54.61 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 54.61 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
+			(at 54.61 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "797e9272-322c-4767-899d-dc065b9ff738")
 		)
@@ -5573,6 +5861,33 @@
 			)
 		)
 		(property "CPN" ""
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "GPN" ""
 			(at 45.72 120.65 0)
 			(effects
 				(font
